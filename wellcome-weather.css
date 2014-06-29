@@ -1,0 +1,30 @@
+*	{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	box-sizing: border-box;
+	}
+
+header {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 3em;
+	letter-spacing: -5px;
+	line-height: 0.8;
+}
+
+main	{
+	margin-top: 2em;
+	margin: 2em 20% 0 20%;
+}
+
+#weather	{
+	font-style: italic;
+}
+
+img	{
+	max-width: 100%;
+	border: silver 0.5em solid;
+}
+
+cite	{
+	font-size: small;
+	display: block;
+}

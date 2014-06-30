@@ -3,16 +3,22 @@
 	box-sizing: border-box;
 	}
 
+.wrap {
+	max-width: 76.286em;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
 header {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 3em;
 	letter-spacing: -5px;
 	line-height: 0.8;
+	margin-bottom: 1em;
 }
 
 main	{
-	margin-top: 2em;
-	margin: 2em 20% 0 20%;
+	margin: 2em 10% 0 10%;
 }
 
 #weather	{

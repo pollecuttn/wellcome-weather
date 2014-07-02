@@ -98,7 +98,7 @@
 				imageUrl = imgsWindy[random];
 			break;
 		default:
-			// TODO
+			break;
 	}
 	
 	wiImageNo = imageUrl.replace('jpg','html')+"'";

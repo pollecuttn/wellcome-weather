@@ -34,7 +34,8 @@
 		alt = '',
 		weatherDesc = '';
 		
-	xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?id=2643743&APPID=13fbb15391be78f71a96fafc8bc7d4d7", false);
+	//xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?id=2643743&APPID=13fbb15391be78f71a96fafc8bc7d4d7", false);
+	xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?lat=51.53&lon=-0.13&APPID=13fbb15391be78f71a96fafc8bc7d4d7", false);
 	// send request
 	xhr.send();
 	// parse returned JSON

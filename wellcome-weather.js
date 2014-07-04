@@ -47,7 +47,7 @@
 		for ( var i = 0; i < length; i++ ) {
 			if (weathers[giraffe][i] == openweathermapId) {
 				// if clear and daytime
-				if ( giraffe=="clear" && json.weather[0].icon.indexOf("d") ) {
+				if ( giraffe=="clear" && (json.weather[0].icon.indexOf("d") != -1) ) {
 					document.getElementById("weather").innerHTML = "sunny";
 					weather = "sunny";
 				} else {

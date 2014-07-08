@@ -20,7 +20,7 @@
 		imgsSnowy = [ 'L0029207.jpg', 'L0031713.jpg', 'L0031718.jpg', 'L0044108.jpg', 'V0021371.jpg', 'V0021373.jpg', 'V0022839.jpg', 'V0039050.jpg', 'V0040891.jpg', 'V0040892.jpg', 'V0041046.jpg', 'V0047377.jpg', 'V0050354.jpg' ],
 		imgsStormy = [ 'V0010565.jpg', 'V0012901.jpg', 'V0025061.jpg', 'V0049619.jpg' ],
 		imgsSunny = [ 'L0040558.jpg', 'L0041342.jpg', 'L0052309.jpg', 'L0053261.jpg', 'L0053268.jpg', 'L0072364.jpg', 'L0072384.jpg', 'L0074515.jpg', 'V0049411.jpg' ],
-		imgsClear = [ 'L0049053.jpg', 'L0053694.jpg', 'M0003797.jpg', 'V0024749.jpg', 'V0024755.jpg', 'V0049625.jpg', 'V0049627.jpg'],
+		imgsClear = [ 'L0049053.jpg', 'L0053694.jpg', 'M0003797.jpg', 'V0024749.jpg', 'V0024755.jpg', 'V0049625.jpg', 'V0049627.jpg', 'V0040906.jpg' ],
 		imgsWindy = [ 'L0041083.jpg', 'L0044104.jpg', 'V0011238.jpg', 'V0040869.jpg', 'V0049281.jpg' ],
 	
 		//weather = 'windy',
@@ -58,7 +58,7 @@
 			}
 		}
 	}
-	weather = "cloudy";		
+	
 	switch (weather) {
 		case "cloudy":
 			var random = Math.floor( (Math.random() * imgsCloudy.length) ),

@@ -13,7 +13,7 @@
 			cloudy: [802,803,804],
 			windy: [905,952,953,954,955,956,957,958,959]
 		},
-		imgsCloudy = [ 'L0041083.jpg', 'L0041084.jpg', 'L0053624.jpg' ],
+		imgsCloudy = [ 'L0041083.jpg', 'L0041084.jpg', 'L0053624.jpg', 'V0025129EL.jpg', 'V0025129ER.jpg', 'V0034176.jpg' ],
 		imgsDusty = [ 'V0013642.jpg', 'V0013643.jpg', 'V0021369.jpg' ],
 		imgsFoggy = [ 'L0032640.jpg', 'V0010880.jpg'],
 		imgsRainy = [ 'L0044109.jpg', 'V0040529.jpg', 'V0046708.jpg', 'V0050307.jpg' ],
@@ -58,7 +58,7 @@
 			}
 		}
 	}
-			
+	weather = "cloudy";		
 	switch (weather) {
 		case "cloudy":
 			var random = Math.floor( (Math.random() * imgsCloudy.length) ),

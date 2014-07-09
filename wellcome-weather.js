@@ -31,8 +31,7 @@
 		imagePrepend = "<img src='" + fullPath,
 		image = '',
 		imageAppend = '',
-		alt = '',
-		weatherDesc = '';
+		alt = '';
 		
 	xhr.open("GET", "http://api.openweathermap.org/data/2.5/weather?lat=51.53&lon=-0.13&APPID=13fbb15391be78f71a96fafc8bc7d4d7", false);
 	// send request
@@ -40,7 +39,6 @@
 	// parse returned JSON
 	json = JSON.parse(xhr.response);
 	openweathermapId = json.weather[0].id;
-	//weatherDesc = document.getElementById("weather").innerHTML = weather;
 	
 	for (giraffe in weathers) {
 	var length = weathers[giraffe].length;
@@ -105,8 +103,6 @@
 	alt = weather + " weather";
 	imageAppend = "' alt='" + alt + "'/></a>"
 	image = wiLink + wiImageNo + ">" + imagePrepend + weather + "/" + imageUrl + imageAppend;
-	// Put weather on the page
-	weatherDesc;
 	// Put image on the page
 	document.getElementById("image").innerHTML = image;
 

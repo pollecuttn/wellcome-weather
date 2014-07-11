@@ -7,7 +7,7 @@
 			stormy: [200,201,202,210,211,212,221,230,231,232,771,781,900,901,902,960,961,962],
 			rainy: [300,301,302,310,311,312,313,314,312,500,501,502,503,504,511,520,521,522,531,906],
 			snowy: [600,601,602,611,612,615,616,620,621,622],
-			foggy: [701,721,741],
+			misty: [701,721,741],
 			dusty: [711,731,751,761,762],
 			clear: [800,801,904],
 			cloudy: [802,803,804],
@@ -15,7 +15,7 @@
 		},
 		imgsCloudy = [ 'L0041083.jpg', 'L0041084.jpg', 'L0053624.jpg', 'V0025129EL.jpg', 'V0025129ER.jpg', 'V0034176.jpg' ],
 		imgsDusty = [ 'V0013642.jpg', 'V0013643.jpg', 'V0021369.jpg' ],
-		imgsFoggy = [ 'L0032640.jpg', 'V0010880.jpg'],
+		imgsMisty = [ 'L0032640.jpg', 'V0010880.jpg'],
 		imgsRainy = [ 'L0044109.jpg', 'V0040529.jpg', 'V0046708.jpg', 'V0050307.jpg' ],
 		imgsSnowy = [ 'L0029207.jpg', 'L0031713.jpg', 'L0031718.jpg', 'L0044108.jpg', 'V0021371.jpg', 'V0021373.jpg', 'V0022839.jpg', 'V0039050.jpg', 'V0040891.jpg', 'V0040892.jpg', 'V0041046.jpg', 'V0047377.jpg', 'V0050354.jpg' ],
 		imgsStormy = [ 'V0010565.jpg', 'V0012901.jpg', 'V0025061.jpg', 'V0049619.jpg' ],
@@ -66,9 +66,9 @@
 			var random = Math.floor( (Math.random() * imgsDusty.length) ),
 				imageUrl = imgsDusty[random];
 			break;
-		case "foggy":
-			var random = Math.floor( (Math.random() * imgsFoggy.length) ),
-				imageUrl = imgsFoggy[random];
+		case "misty":
+			var random = Math.floor( (Math.random() * imgsMisty.length) ),
+				imageUrl = imgsMisty[random];
 			break;
 		case "rainy":
 			var random = Math.floor( (Math.random() * imgsRainy.length) ),

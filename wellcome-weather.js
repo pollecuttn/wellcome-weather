@@ -1,5 +1,5 @@
 (function() {
-	var apiUrl = 'http://api.openweathermap.org/data/2.5/weather?lat=51.53&lon=-0.13&APPID=13fbb15391be78f71a96fafc8bc7d4d7&callback=?';
+	var apiUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=51.53&lon=-0.13&APPID=13fbb15391be78f71a96fafc8bc7d4d7&callback=?';
 	/* see https://github.com/Malvolio/ie.xhr */
 	$.ajax({
 		type: 'GET',
